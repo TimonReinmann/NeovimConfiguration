@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+rm -rf ~/USERPROFILE\AppData\Local\nvim
+ln -s $(pwd) ~/USERPROFILE\AppData\Local\nvim
+
