@@ -1,3 +1,2 @@
--- Füge ein spezifisches Verzeichnis auf einem Windows-System hinzu
-require("theprimeagen")
-
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
