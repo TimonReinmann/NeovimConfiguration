@@ -1,3 +1,10 @@
--- Füge ein spezifisches Verzeichnis auf einem Windows-System hinzu
-require("theprimeagen")
+if vim.loader then
+	vim.loader.enable()
+end
 
+_G.dd = function(...)
+	require("util.debug").dump(...)
+end
+vim.print = _G.dd
+
+require("config.lazy")
